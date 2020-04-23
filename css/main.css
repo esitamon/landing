@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap");
+/* sass mixins and variable */
+/* General setup */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #95a5a6;
+}
+
+body {
+  font-family: 'Baloo Bhaina 2', cursive;
+  background-color: #bdc3c7;
+}
+
+/*basic grid layout*/
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px auto;
+      grid-template-columns: 300px auto;
+  -ms-grid-rows: 400px 400px 400px;
+      grid-template-rows: 400px 400px 400px;
+}
+
+/*Menu styling */
+#avatar {
+  border-radius: 0;
+}
+
+div #avatar {
+  display: block;
+  margin: 0 auto;
+}
+
+.x {
+  padding: 16px;
+  height: 300px;
+  text-align: center;
+  font-size: 14px;
+  color: #95a5a6;
+}
+
+.menu {
+  background-color: #34495e;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  grid-row: 1/6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  color: #95a5a6;
+}
+
+.navigation {
+  border-top: 1px solid #95a5a6;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: start;
+  padding: 12px;
+}
+
+#y {
+  border-bottom: 1px solid #95a5a6;
+}
+/*# sourceMappingURL=main.css.map */
